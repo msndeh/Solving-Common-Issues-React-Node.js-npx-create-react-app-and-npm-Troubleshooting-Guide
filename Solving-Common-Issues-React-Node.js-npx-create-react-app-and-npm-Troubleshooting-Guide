@@ -55,5 +55,3 @@
    - Run the command: `npx create-react-app your-new-project-name`
    - Replace "your-new-project-name" with the chosen name.
    - This command will create a new React project with the specified name, resolving the naming restrictions issue.
-
-By following these guidelines, you should be able to resolve the respective problems and continue with your desired actions.
