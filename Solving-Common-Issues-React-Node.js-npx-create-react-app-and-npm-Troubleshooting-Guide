@@ -1,0 +1,61 @@
+Here are the guidelines to follow for each of the given problems:
+
+**Problem: 'nmp' is not recognized as a valid command**
+
+1. **Verify Node.js Installation:**
+   - Open your terminal or command prompt.
+   - Run the command: `node -v`
+   - If it doesn't display the version of Node.js, you need to install Node.js from the official website (https://nodejs.org).
+
+2. **Correct the Typo:**
+   - Instead of 'nmp', you should use 'npm'.
+   - Run the command: `npm -v`
+   - If it runs without any errors, the issue is resolved.
+
+**Problem: npm cannot find a file or directory**
+
+1. **Clear npm cache:**
+   - Open your terminal or command prompt.
+   - Run the command: `npm cache clean --force`
+   - This will clear any cached files causing conflicts.
+
+2. **Reinstall npm:**
+   - Uninstall npm globally by running: `npm uninstall -g npm`
+   - Download the latest Node.js installer from the official website (https://nodejs.org) and reinstall Node.js. This will reinstall npm as well.
+
+3. **Check environment variables:**
+   - Open the Control Panel on your computer.
+   - Search for "Environment Variables" and click on "Edit the system environment variables."
+   - In the System Properties window, click on the "Environment Variables" button.
+   - In the "System variables" section, locate the "Path" variable and click on "Edit."
+   - Ensure that the paths to npm and npx are included in the list of paths. If not, add them manually:
+     - C:\Program Files\nodejs\
+     - C:\Users\<your-username>\AppData\Roaming\npm
+   - Close the windows after making the changes.
+
+4. **Restart your command prompt:**
+   - Close your current command prompt window.
+   - Open a new command prompt window.
+   - This ensures that the changes take effect.
+
+**Problem: Naming restrictions for creating a project**
+
+1. **Use URL-friendly characters:**
+   - The project name should only contain URL-friendly characters.
+   - Avoid spaces, special characters, and non-ASCII characters.
+   - Use hyphens or lowercase letters instead of spaces or uppercase letters.
+
+2. **Avoid capital letters:**
+   - npm naming conventions no longer allow capital letters in project names.
+   - Ensure that your project name consists entirely of lowercase letters.
+
+3. **Choose a different project name:**
+   - Select a new project name that meets the guidelines mentioned above.
+   - Examples: 'react-app-01', 'my-react-app', 'text-to-speech-app'.
+
+4. **Create the project with the new name:**
+   - Run the command: `npx create-react-app your-new-project-name`
+   - Replace "your-new-project-name" with the chosen name.
+   - This command will create a new React project with the specified name, resolving the naming restrictions issue.
+
+By following these guidelines, you should be able to resolve the respective problems and continue with your desired actions.
